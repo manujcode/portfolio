@@ -1,0 +1,114 @@
+.education {
+  padding: 4rem 8%;
+  background: linear-gradient(135deg, #0f1724, #1a2433);
+  color: #e6eef8;
+  border-radius: 12px;
+  margin-top: 5px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #6ee7b7;
+}
+
+.edu-list  {
+  /* display: grid; */
+  gap: 5px;
+  padding-bottom: 15px;
+}
+/* .grid{
+   z
+    display: flex;
+    
+} */
+
+.edu-card {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 25px;
+  /* display: flex; */
+}
+.clg{
+  display: flex;
+ 
+}
+.clg-img {
+  width: 120px;   /* slightly larger */
+  height: 120px;
+  border-radius: 50%; /* make it circular (college logo style) */
+
+  /* Background image + gradient overlay */
+  background: 
+    linear-gradient(135deg, rgba(15, 23, 36, 0), rgba(26, 36, 51, 0)),
+    url("../../../public/clg-img.jpeg");
+
+  background-size: cover;       /* cover the circle */
+  background-position: center;  /* keep focus centered */
+  background-repeat: no-repeat;
+
+  border: 3px solid #6ee7b7;  /* accent border */
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+  margin-right: 15px;
+}
+.scl-img{
+    width: 120px;   /* slightly larger */
+  height: 120px;
+  border-radius: 5%; /* make it circular (college logo style) */
+
+  /* Background image + gradient overlay */
+  background: 
+    linear-gradient(135deg, rgba(15, 23, 36, 0), rgba(26, 36, 51, 0)),
+    url("../../../public/scl-img.png");
+
+  background-size: cover;       /* cover the circle */
+  background-position: center;  /* keep focus centered */
+  background-repeat: no-repeat;
+
+  border: 3px solid #6ee7b7;  /* accent border */
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+  margin-right: 15px;
+}
+
+
+
+.edu-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.45);
+}
+
+.edu-card h2 {
+  font-size: 1.4rem;
+  margin-bottom: .5rem;
+  color: #e6eef8;
+}
+
+.edu-card p {
+  font-size: 1rem;
+  color: #9fb3c8;
+  margin-bottom: .3rem;
+}
+
+.edu-card span {
+  font-size: 0.9rem;
+  color: #6ee7b7;
+  font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .edu-list {
+    grid-template-columns: 1fr;
+  }
+}
+@media (min-width: 769px) {
+  .edu-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

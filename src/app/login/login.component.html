@@ -1,0 +1,85 @@
+<!-- <div>
+    <h1> email :-{{val}}</h1>
+    <input type="text" #inputval>
+    <button type="submit" (click)="getval(inputval.value)">getVal</button>
+    <button type="submit" (click)="setval()">setVal</button>
+
+
+</div> -->
+
+<!-- <div>
+    <button (click)="hide()">hide</button>
+    <button (click)="show()">show</button>
+    <button (click)="togle()">togle</button>
+
+    @if (display) {
+        <div style=" width: 200px; height: 200px;background-color:blueviolet "> my name is manuj</div>
+    }
+    @else{
+        <div style=" width: 20px; height: 20px;background-color: blue "> my name is manuj</div>
+    }
+</div> -->
+
+ <!-- <button (click)="updateColor('red')">red</button>
+ <button (click)="updateColor('green')">green</button>
+ <button (click)="updateColor('blue')">blue</button>
+ <button (click)="updateColor('black')">black</button>
+  <button (click)="updateColor('default')">default</button>
+
+@switch (color) {
+    @case ('red') {
+       <div style="background-color: red; width: 300px; height: 300px;"> my color is red</div>
+    }
+    @case ('green') {
+       <div style="background-color: green; width: 300px; height: 300px;"> my color is green</div>
+    }
+    @case ('blue') {
+       <div style="background-color: blue; width: 300px; height: 300px;"> my color is blue</div>
+    }
+    @case ('black') {
+       <div style="background-color: black; width: 300px; height: 300px; color:aliceblue"> my color is black</div>
+    }
+    @default {
+       <div style="background-color: white; width: 300px; height: 300px; "> my color is default</div>
+
+    }
+} -->
+
+
+<!-- @for(st of students;track st.name;let id = $index){
+   <div>
+    <h1>
+          <span>{{id}} {{' '}} </span>
+        <span>{{st.name}} {{' '}} </span>
+         <span>{{st.age}} {{' '}} </span>
+          <span>{{st.email}} {{ ' '}}</span>
+    </h1>
+   </div>
+} -->
+
+
+<!-- <button (click)="fun()">button</button> -->
+
+
+<!-- <h1 [style.background-color]="color">manyj</h1> -->
+
+<!-- <div>
+    <ul>
+        <li *ngFor="let name of names">
+            {{name}}
+            <ng-container *ngIf="true">
+  gg
+        </ng-container>
+        </li>
+    </ul>
+</div> -->
+<!-- <button (click)="chsngeColor()"> change to green</button>
+<div  [ngSwitch]="color" >
+    <h1 *ngSwitchCase="'red'" style="background-color: red;">red</h1>
+    <h1 *ngSwitchCase="'blue'" style="background-color: blue;">blue</h1>
+    <h1 *ngSwitchCase="'green'" style="background-color: green;">green</h1>
+    <h1 *ngSwitchDefault="" style="background-color: white;"> No color</h1>
+
+</div> -->
+<h1> Login Page</h1>
+@if(userName){<h3 > my name is {{userName}}</h3>}
