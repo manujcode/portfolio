@@ -5,13 +5,14 @@
   border-radius: 12px;
   margin-top: 5px;
   text-align: center;
+  border: 4px solid #00ff88;
 }
 
 .section-title {
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 2rem;
-  color: #6ee7b7;
+  color: #00ff88;
 }
 
 .skills-logos {
@@ -35,6 +36,7 @@
   object-fit: contain;
   margin-bottom: 0.5rem;
   filter: brightness(0.9);
+  box-shadow: 0 8px 16px rgba(229, 217, 217, 0.918);
 }
 
 .skill p {

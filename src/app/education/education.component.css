@@ -4,6 +4,7 @@
   color: #e6eef8;
   border-radius: 12px;
   margin-top: 5px;
+  border: 4px solid #00ff88;
 }
 
 .section-title {
@@ -11,7 +12,7 @@
   font-weight: 700;
   margin-bottom: 2rem;
   text-align: center;
-  color: #6ee7b7;
+  color: #00ff88;
 }
 
 .edu-list  {
@@ -30,7 +31,7 @@
   border: 1px solid rgba(255,255,255,0.1);
   padding: 1.5rem;
   border-radius: 12px;
-  box-shadow: 0 6px 14px rgba(0,0,0,0.3);
+  box-shadow: 0 8px 16px rgba(229, 217, 217, 0.918);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   margin-bottom: 25px;
   /* display: flex; */
@@ -53,7 +54,7 @@
   background-position: center;  /* keep focus centered */
   background-repeat: no-repeat;
 
-  border: 3px solid #6ee7b7;  /* accent border */
+  border: 3px solid #00ff88;  /* accent border */
   box-shadow: 0 6px 12px rgba(0,0,0,0.3);
   margin-right: 15px;
 }
@@ -71,7 +72,7 @@
   background-position: center;  /* keep focus centered */
   background-repeat: no-repeat;
 
-  border: 3px solid #6ee7b7;  /* accent border */
+  border: 3px solid #00ff88;  /* accent border */
   box-shadow: 0 6px 12px rgba(0,0,0,0.3);
   margin-right: 15px;
 }
@@ -97,7 +98,7 @@
 
 .edu-card span {
   font-size: 0.9rem;
-  color: #6ee7b7;
+  color: #00ff88;
   font-weight: 600;
 }
 
