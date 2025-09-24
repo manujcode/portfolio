@@ -106,6 +106,14 @@
   .edu-list {
     grid-template-columns: 1fr;
   }
+.clg-img{
+  border-radius: 50%;
+  width: 80px;
+  height: 55px;
+  margin-top: 25px;
+}
+
+  
 }
 @media (min-width: 769px) {
   .edu-list {
