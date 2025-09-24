@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background:  radial-gradient(#00ff88, rgb(0, 0, 0));
+  background:  radial-gradient(#00ff88, #278559);
   padding: 1rem 2rem;
   border-radius: 12px;
   box-shadow: 0 6px 12px rgba(0,0,0,0.3);
@@ -40,14 +40,14 @@
   
 }
 
-.nav li::after {
+.li::after {
   content: "";
   position: absolute;
   left: 0;
   bottom: -6px;
   width: 0;
   height: 2px;
-  background: #00ff88;
+  background: #006033;
   transition: width 0.5s ease;
 }
 
@@ -58,12 +58,13 @@ a {
   
 
 
-.nav li:hover {
-  color: #00ff88;
+.nav li:hover { 
+   color: #002312;
 }
 
 .nav li:hover::after {
   width: 100%;
+  color: #002312;
 }
 
 @media (max-width: 900px) {
