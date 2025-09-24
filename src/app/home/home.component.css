@@ -1,10 +1,11 @@
+
 .home {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 4rem 8%;
   min-height: 100vh;
-  background: linear-gradient(135deg, #0f1724, #1a2433);
+  background:  radial-gradient(#00ff88, rgb(0, 0, 0));
   color: #e6eef8;
   border-radius: 10px;
   margin-top: 5px;
@@ -25,7 +26,7 @@ p{
 }
 
 .home-content h1 span {
-  color: #00ff88; /* accent */
+  color: #00ff88;
 }
 
 .home-content p {
@@ -47,7 +48,7 @@ p{
 }
 
 .btn:hover {
-  background: #60a5fa;
+  background: #00ffb3;
   color: #fff;
   transform: translateY(-3px);
   box-shadow: 0 6px 14px rgba(0,0,0,0.3);
@@ -60,7 +61,7 @@ p{
   box-shadow: 0 8px 16px rgba(229, 217, 217, 0.918);
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .home {
     flex-direction: column-reverse;

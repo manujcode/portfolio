@@ -7,6 +7,14 @@ import { Component } from '@angular/core';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
+  
+//    anims: any = [...document.querySelectorAll("[anim]")];
+// // console.log(anims);
+//  click:any = (el, cb) => el.addEventListener("click", cb);
+//  toggle :any = (el) => el.classList.toggle("toggled");
+//  clickTog:any = (el) => click(el, () => toggle(el));
+// anims.map(clickTog);
+
    
   downloadResume(){
      const link = document.createElement('a');

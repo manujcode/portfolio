@@ -1,6 +1,6 @@
 .education {
   padding: 4rem 8%;
-  background: linear-gradient(135deg, #0f1724, #1a2433);
+  background:  radial-gradient(#00ff88, rgb(0, 0, 0));
   color: #e6eef8;
   border-radius: 12px;
   margin-top: 5px;
@@ -34,45 +34,44 @@
   box-shadow: 0 8px 16px rgba(229, 217, 217, 0.918);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   margin-bottom: 25px;
-  /* display: flex; */
+ 
 }
 .clg{
   display: flex;
  
 }
 .clg-img {
-  width: 120px;   /* slightly larger */
+  width: 120px;   
   height: 120px;
-  border-radius: 50%; /* make it circular (college logo style) */
-
-  /* Background image + gradient overlay */
+  border-radius: 50%; 
+  
   background: 
     linear-gradient(135deg, rgba(15, 23, 36, 0), rgba(26, 36, 51, 0)),
     url("../../../public/clg-img.jpeg");
 
-  background-size: cover;       /* cover the circle */
-  background-position: center;  /* keep focus centered */
+  background-size: cover;      
+  background-position: center;  
   background-repeat: no-repeat;
 
-  border: 3px solid #00ff88;  /* accent border */
+  border: 3px solid #00ff88;  
   box-shadow: 0 6px 12px rgba(0,0,0,0.3);
   margin-right: 15px;
 }
 .scl-img{
-    width: 120px;   /* slightly larger */
+    width: 120px;   
   height: 120px;
-  border-radius: 5%; /* make it circular (college logo style) */
+  border-radius: 5%; 
 
-  /* Background image + gradient overlay */
+  
   background: 
     linear-gradient(135deg, rgba(15, 23, 36, 0), rgba(26, 36, 51, 0)),
     url("../../../public/scl-img.png");
 
-  background-size: cover;       /* cover the circle */
-  background-position: center;  /* keep focus centered */
+  background-size: cover;       
+  background-position: center;  
   background-repeat: no-repeat;
 
-  border: 3px solid #00ff88;  /* accent border */
+  border: 3px solid #00ff88;  
   box-shadow: 0 6px 12px rgba(0,0,0,0.3);
   margin-right: 15px;
 }
@@ -102,7 +101,7 @@
   font-weight: 600;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .edu-list {
     grid-template-columns: 1fr;
