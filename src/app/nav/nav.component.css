@@ -49,8 +49,8 @@
   bottom: -6px;
   width: 0;
   height: 2px;
-  background: #00ff88;  /* accent color */
-  transition: width 0.3s ease;
+  background: #00ff88;/*  accent color*/
+  transition: width 0.5s ease;
 }
 
 a {

@@ -54,8 +54,8 @@ p{
 }
 
 .home-image img {
-  width: 620px;
-  border-radius: 20%;
+  width: 420px;
+  border-radius: 50%;
   border: 4px solid #00ff88  ;
   box-shadow: 0 8px 16px rgba(229, 217, 217, 0.918);
 }
